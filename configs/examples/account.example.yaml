@@ -1,0 +1,29 @@
+account_id: account_001
+enabled: true
+
+instagram:
+  username: example_account
+  instagram_user_id: "META_IG_USER_ID"
+
+brand:
+  name: Example Brand
+  niche: technology
+  language: en
+  tone: educational
+  visual_style: minimal
+
+content:
+  posts_per_day: 1
+  formats:
+    - single_image
+    - carousel
+  carousel_min_slides: 4
+  carousel_max_slides: 7
+
+schedule:
+  timezone: Asia/Kolkata
+  publish_times:
+    - "10:30"
+
+approval:
+  required: true
